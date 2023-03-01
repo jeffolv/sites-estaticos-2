@@ -1,0 +1,138 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #ccc;
+}
+
+header#cabecalho {
+    background-image: url(../assets/imagens/bg-3.jpg);
+    height: 550px;
+    background-color: #B9B8B4;
+    border-top: 1px solid transparent;
+    background-position: right center; /* arrumar a imagem para mostrar a parte da "direita" focada no "centro" da tela */
+    background-size: cover; /* ajusta automaticamente a imagem na tela */
+}
+
+ul#menu {
+    display: flex;
+    margin: 20px 20px 0 0;
+    justify-content: flex-end;
+}
+
+li {
+    font-size: 10px;
+    letter-spacing: 2px; /* espaçamento entre as letras */
+    margin-right: 10px;
+    list-style: none;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 15px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+li:hover {
+    background: rgba(0, 0, 0, .5);
+    transition: .5s ease all;
+    cursor: pointer;
+}
+
+.content-header {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.content-header h1 {
+    text-transform: uppercase;
+    font-size: 3.5em;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.content-header p {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, .5);
+    display: inline-block;
+    margin-top: 80px;
+    font-size: .92em;
+    border-bottom: 2px solid white;
+}
+
+.content-header p:hover {
+    background: rgba(0, 0, 0, .8);
+    transition: .5s ease all;
+    cursor: pointer; 
+}
+
+#content-principal {
+    width: 80%;
+    margin: auto;
+}
+
+.secao-principal {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.card {
+    width: 33%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    padding: 15px 10px;
+    background-color: #696969;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .9em;
+}
+
+.card p:hover {
+    background: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.article-principal {
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.secao-secundaria {
+    display: block;
+}
+
+h2 {
+    background-color: #ececec;
+    border-bottom: 2px solid #c5c3c3;
+    text-transform: lowercase;
+    padding: 10px 10px;
+}
+
+.article-principal p {
+    margin: 15px 0;
+}
+
+#rodape {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #696969;
+    height: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px #333;
+}
